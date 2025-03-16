@@ -14,6 +14,9 @@ import DailyOverviewChart from '../../components/home/DailyOverviewChart';
 import RecentEntriesTimeline from '../../components/home/RecentEntriesTimeline';
 import QuickActionsBar from '../../components/home/QuickActionsBar';
 
+// Import services
+import { dataService, predictionService } from '../../services';
+
 // Sample data for demonstration
 const sampleEntries = [
   { type: 'glucose', value: 120, time: 'Today, 10:30 AM', id: '1' },
